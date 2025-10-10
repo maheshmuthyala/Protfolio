@@ -4,16 +4,16 @@ export default function Publications() {
   const publications = [
     {
       title: 'Early Stage Lung Cancer Detection Using Machine Learning Algorithms',
-      authors: 'Your Name, Dr. John Smith, Dr. Sarah Johnson',
-      journal: 'International Journal of Medical Informatics',
-      year: '2023',
-      volume: 'Vol. 45, Issue 3',
-      pages: 'pp. 234-248',
-      doi: '10.1016/j.ijmedinf.2023.104567',
-      abstract: 'This research presents a comprehensive machine learning approach for early detection of lung cancer using CT scan images. We developed and compared multiple algorithms including Random Forest, SVM, and Deep Neural Networks, achieving 94.2% accuracy in detecting early-stage lung cancer.',
-      citations: 28,
-      link: '#',
-      impact: 'High Impact Factor: 4.8'
+      authors: 'Mahesh Muthyala, J Sreedevi, M Rama Bai',
+      journal: 'Bioscience Biotechnology Research Communications',
+      year: '2021',
+      volume: 'Vol. 14, Issue 5',
+      pages: 'pp. 306-313',
+      doi: 'http://dx.doi.org/10.21786/bbrc/14.5/54',
+      abstract: 'Lung cancer is an increasing syndrome in India as well as in the world. The international agency for research says that 5.5% of cancer patients in India are sick by lung cancer. Research is going on for predicting lung cancer detection at early stage using Computer Aided Systems. The dataset plays a important role in clinical research. If the data set contains a missed value, then we may get inaccurate results. To fill the missed values there are many number of imputation techniques. In this study Mean Imputer and KNN Imputer were used to impute the missing values. The classifiers compared are Support Vector Machine, Logistic Regression, Naïve Bayes Classifier, K-Nearest Neighbor and Decision Tree Classifier. These classifiers are compared based on accuracy. The confusion matrix is displayed for all five classifiers. At first imputation technique is applied and the accuracy of the classifiers is measured and then feature selection is done. On the selected features Principle Component Analysis (PCA) is used to increase the accuracy of the classifiers and the new accuracy of the classifiers is measured. The best combination of imputation techniques and machine learning classifiers is found to predict lung cancer. When Mean Imputation method is applied algorithms have achieved good accuracy and Decision Tree high accuracy',
+      citations: 5,
+      link: '',
+      impact: 'High Impact Factor: 5.9'
     },
     {
       title: 'Predictive Analytics in Healthcare: A Data-Driven Approach to Patient Risk Assessment',
@@ -25,7 +25,7 @@ export default function Publications() {
       doi: '10.1177/jhca.2022.345678',
       abstract: 'An innovative framework for patient risk assessment using predictive analytics and machine learning. The study demonstrates how big data analytics can improve clinical decision-making and reduce hospital readmission rates by 31%.',
       citations: 42,
-      link: '#',
+      link: 'http://dx.doi.org/10.21786/bbrc/14.5/54',
       impact: 'Impact Factor: 3.9'
     },
     {
