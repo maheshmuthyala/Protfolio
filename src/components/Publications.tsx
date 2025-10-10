@@ -29,16 +29,16 @@ export default function Publications() {
       impact: 'Impact Factor: 3.9'
     },
     {
-      title: 'Advanced Statistical Methods for Financial Fraud Detection in Real-Time Payment Systems',
-      authors: 'Your Name, Dr. Robert Wilson',
-      journal: 'IEEE Transactions on Computational Finance',
+      title: 'PERSON IDENTIFICATION BASED ON TELUGU HANDWRITING USING CNN',
+      authors: 'Mahesh Muthyala, Sreedevi J',
+      journal: 'International Journal of Information and Computing Science',
       year: '2021',
-      volume: 'Vol. 28, Issue 4',
-      pages: 'pp. 892-907',
-      doi: '10.1109/tcf.2021.789456',
-      abstract: 'This paper introduces novel statistical methods for detecting fraudulent transactions in real-time payment systems. Our approach combines anomaly detection with behavioral analytics, achieving 99.1% fraud detection rate with minimal false positives.',
-      citations: 67,
-      link: '#',
+      volume: 'Vol. 8, Issue 4',
+      pages: 'pp. 0-5',
+      doi: '16.10089/IJICS',
+      abstract: 'Person identification has become a significant exploration region throughout the previous multi decade. Identification of an individual is a perplexing errand. Identification of person by bio-metric, eye iris scan, and signature of person, yet the exploration is as yet continuing for the identification of individuals by many unique parameters and a combination of few parameters. Different people have different handwriting style which is used to distinguish the individual. The system proposed in this paper is the identification of person based on Telugu handwriting. Handwriting is the parameter used to identify the individual. In this study Convolutional Neural Networks (CNN) are used to recognize the handwriting character and predict the person for the recognized writing. Styles of handwriting and size of the font vary from individual to individual and it becomes more complex. Individuals have different writing style and almost equal font size is assumed. Telugu language has 53 alphabets and some extensions to alphabets and these extensions are difficult to detect. The new system perceives the text in the image and identifies the person by handwriting using neural networks. With handwritten data from few persons the proposed system has achieved 91% accuracy.',
+      citations: 1,
+      link: 'https://drive.google.com/file/d/1PCAT4flthPrt6-NrCLxsijC8n18X9noV/view?usp=sharing',
       impact: 'Impact Factor: 5.2'
     }
   ];
