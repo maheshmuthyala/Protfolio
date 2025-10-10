@@ -16,19 +16,6 @@ export default function Publications() {
       impact: 'High Impact Factor: 5.9'
     },
     {
-      title: 'Predictive Analytics in Healthcare: A Data-Driven Approach to Patient Risk Assessment',
-      authors: 'Your Name, Dr. Emily Chen, Dr. Michael Brown',
-      journal: 'Journal of Healthcare Analytics',
-      year: '2022',
-      volume: 'Vol. 12, Issue 2',
-      pages: 'pp. 145-162',
-      doi: '10.1177/jhca.2022.345678',
-      abstract: 'An innovative framework for patient risk assessment using predictive analytics and machine learning. The study demonstrates how big data analytics can improve clinical decision-making and reduce hospital readmission rates by 31%.',
-      citations: 42,
-      link: 'http://dx.doi.org/10.21786/bbrc/14.5/54',
-      impact: 'Impact Factor: 3.9'
-    },
-    {
       title: 'PERSON IDENTIFICATION BASED ON TELUGU HANDWRITING USING CNN',
       authors: 'Mahesh Muthyala, Sreedevi J',
       journal: 'International Journal of Information and Computing Science',
