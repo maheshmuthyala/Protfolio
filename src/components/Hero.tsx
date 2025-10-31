@@ -1,4 +1,4 @@
-import { BarChart3, Download, Mail } from 'lucide-react';
+import { BarChart3, Mail } from 'lucide-react';
 
 export default function Hero() {
   const scrollToSection = (id: string) => {

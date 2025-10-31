@@ -313,7 +313,7 @@ export default function DashboardGenerator() {
 
                 {stats.categoricalColumns.map(column => {
                   const distribution = getCategoricalDistribution(column);
-                  const maxCount = Math.max(...Object.values(distribution));
+                  const maxCount = Math.max(...Object.values(distribution as Record<string, number>));
 
                   return (
                     <div key={column} className="bg-slate-900/50 rounded-lg p-4">
@@ -322,19 +322,22 @@ export default function DashboardGenerator() {
                         {stats.summary[column].count} unique values
                       </p>
                       <div className="space-y-2">
-                        {Object.entries(distribution).map(([key, value]) => (
-                          <div key={key} className="flex items-center gap-3">
-                            <span className="text-sm text-slate-300 w-32 truncate">{key}</span>
-                            <div className="flex-1 bg-slate-800 rounded-full h-6 overflow-hidden">
-                              <div
-                                className="bg-gradient-to-r from-purple-600 to-pink-600 h-full rounded-full flex items-center justify-end px-2"
-                                style={{ width: `${(value / maxCount) * 100}%` }}
-                              >
-                                <span className="text-xs font-semibold">{value}</span>
+                        {Object.entries(distribution).map(([key, value]) => {
+                          const numValue = typeof value === 'number' ? value : 0;
+                          return (
+                            <div key={key} className="flex items-center gap-3">
+                              <span className="text-sm text-slate-300 w-32 truncate">{key}</span>
+                              <div className="flex-1 bg-slate-800 rounded-full h-6 overflow-hidden">
+                                <div
+                                  className="bg-gradient-to-r from-purple-600 to-pink-600 h-full rounded-full flex items-center justify-end px-2"
+                                  style={{ width: `${(numValue / maxCount) * 100}%` }}
+                                >
+                                  <span className="text-xs font-semibold">{numValue}</span>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        ))}
+                          );
+                        })}
                       </div>
                     </div>
                   );
