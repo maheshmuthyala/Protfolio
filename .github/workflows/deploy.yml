@@ -1,9 +1,7 @@
-name: Deploy Vite Project to GitHub Pages
+name: Deploy Vite React App to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
     branches: [ "main" ]
   workflow_dispatch:
 
