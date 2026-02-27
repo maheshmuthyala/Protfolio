@@ -22,7 +22,7 @@ export default function Experience() {
       logo: '🔷',
       position: 'Data Analyst',
       location: 'Hyderabad, India',
-      period: 'Jun 2020 - Jul 2022',
+      period: 'Aug 2021 - May 2022',
       description: 'Provided data analytics and business intelligence solutions.',
       achievements: [
         'Designed Power BI dashboards to visualize business metrics, improving stakeholder decision-making speed by 25%',
