@@ -4,7 +4,7 @@ export default function About() {
   const highlights = [
     {
       icon: TrendingUp,
-      title: '4+ Years',
+      title: '3 Years',
       description: 'Experience in Data Analytics',
     },
     {
